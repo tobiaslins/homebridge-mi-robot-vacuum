@@ -38,10 +38,9 @@ Robot.prototype = {
     var client = dgram.createSocket('udp4');
 
     client.send(message, 0, message.length, PORT, this.robotIP, function(err, bytes) {
-        if (err) throw err;
-        this.log('Command sent to ' + address +':'+ PORT);
-        client.close();
-        callback();
+      if (err) callback(err);
+      client.close();
+      callback();
     });
 
   },
