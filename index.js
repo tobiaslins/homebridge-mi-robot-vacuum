@@ -6,7 +6,7 @@ module.exports = function(homebridge) {
   Characteristic = homebridge.hap.Characteristic;
   UUIDGen = homebridge.hap.uuid;
 
-  homebridge.registerAccessory("homebridge-mi-robot-vacuum", "Mi Robot Vacuum", Robot);
+  homebridge.registerAccessory("homebridge-mi-robot-vacuum", "MiVacuum", Robot);
 }
 
 function Robot(log, config, api) {
@@ -45,7 +45,7 @@ Robot.prototype = {
       .setCharacteristic(Characteristic.Model, "Mi Robot Vacuum")
       .setCharacteristic(Characteristic.SerialNumber, "1234567890");
 
-    switchService = new Service.Switch(this.name);
+    switchService = new Service.Switch("Robo");
     switchService
       .getCharacteristic(Characteristic.On)
       .on('get', this.getPowerState.bind(this))
