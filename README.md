@@ -9,11 +9,11 @@ More Details here: https://github.com/jghaanstra/com.robot.xiaomi-mi
 Add a new accessory to your `config.json`
 
 ```json
-"accessories": [{
-    "accessory": "MiVacuum",
-    "name": "Vacuum Cleaner",
-    "roboIP": "IPOFYOURROBOT",
-    "start": "HEX_STREAM_FOR_START",
-    "stop": "HEX_STREAM_FOR_STOP"
-}],
+{
+  "accessory": "MiVacuum",
+  "name": "Vacuum Cleaner",
+  "roboIP": "IPOFYOURROBOT",
+  "start": "HEX_STREAM_FOR_START",
+  "stop": "HEX_STREAM_FOR_STOP"
+}
 ```
