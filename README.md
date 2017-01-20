@@ -12,7 +12,7 @@ Add a new accessory to your `config.json`
 "accessories": [{
     "accessory": "MiVacuum",
     "name": "Vacuum Cleaner",
-    "roboIP": "IPOFYOURROBOT"
+    "roboIP": "IPOFYOURROBOT",
     "start": "HEX_STREAM_FOR_START",
     "stop": "HEX_STREAM_FOR_STOP"
 }],
