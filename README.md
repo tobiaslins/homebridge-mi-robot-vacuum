@@ -1,4 +1,5 @@
 # homebridge-mi-robot-vacuum
+[![NPM version][npm-image]][npm-url]
 A homebridge plugin to control your xiaomi mi robot vacuum
 
 **NOTE** To configure this plugin - you need to install _Wireshark_ and _Bluestacks_
@@ -28,3 +29,6 @@ Add a new accessory to your `config.json`
   "stop": "HEX_STREAM_FOR_STOP"
 }
 ```
+
+[npm-url]: https://www.npmjs.com/package/homebridge-mi-robot-vacuum
+[npm-image]: http://img.shields.io/npm/v/homebridge-mi-robot-vacuum.svg
