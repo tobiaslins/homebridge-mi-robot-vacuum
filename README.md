@@ -17,7 +17,7 @@ More Details here: https://github.com/jghaanstra/com.robot.xiaomi-mi
 ## homebridge configuration
 
 Add a new accessory to your `config.json`
-`roboIP` is the IP address of your mi robot vacuum in your internal network
+`robotIP` is the IP address of your mi robot vacuum in your internal network
 `start` is the HEX stream for starting the robot
 `stop` is the HEX stream for starting the robot
 
@@ -25,7 +25,7 @@ Add a new accessory to your `config.json`
 {
   "accessory": "MiVacuum",
   "name": "Vacuum Cleaner",
-  "roboIP": "IP_ADDRESS_ROBOT",
+  "robotIP": "IP_ADDRESS_ROBOT",
   "start": "HEX_STREAM_FOR_START",
   "stop": "HEX_STREAM_FOR_STOP"
 }
