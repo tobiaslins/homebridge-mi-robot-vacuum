@@ -11,7 +11,7 @@ A homebridge plugin to control your xiaomi mi robot vacuum
 npm install -g homebridge-mi-robot-vacuum
 ```
 
-## Receiving HEX values for Start/Stop and Return Command
+## Receiving HEX values for configuration
 More Details here: https://github.com/jghaanstra/com.robot.xiaomi-mi
 
 ## homebridge configuration
