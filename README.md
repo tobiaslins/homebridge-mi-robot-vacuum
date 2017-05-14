@@ -3,7 +3,7 @@
 
 A homebridge plugin to control your xiaomi mi robot vacuum
 
-**NOTE** To configure this plugin - you need to install _Wireshark_ and _Bluestacks_
+**NOTE** To configure this plugin - you need to install [_Wireshark_](https://www.wireshark.org/) and [_Bluestacks_](http://www.bluestacks.com/de/index.html)
 
 ## Installation
 
